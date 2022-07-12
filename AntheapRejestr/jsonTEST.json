@@ -1,0 +1,32 @@
+{
+    "result": {
+        "subject": {
+            "name": "TESTOWA FIRMA",
+            "nip": "5555555555",
+            "statusVat": "Czynny",
+            "regon": "123456789",
+            "pesel": null,
+            "krs": "0000054321",
+            "residenceAddress": null,
+            "workingAddress": "ULICA 1, 12-345 MIASTO",
+            "representatives": [],
+            "authorizedClerks": [],
+            "partners": [],
+            "registrationLegalDate": "2000-12-13",
+            "registrationDenialBasis": null,
+            "registrationDenialDate": null,
+            "restorationBasis": null,
+            "restorationDate": null,
+            "removalBasis": null,
+            "removalDate": null,
+            "accountNumbers": [
+                "60109015930000000059029747",
+                "17109015930000000059029745"
+            ],
+            "hasVirtualAccounts": false,
+            "StatusVat": "Czynny"
+        },
+        "requestId": "bpUwa-8g3mk8j",
+        "requestDateTime": "11-07-2022 12:56:19"
+    }
+}

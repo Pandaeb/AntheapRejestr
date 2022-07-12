@@ -1,0 +1,21 @@
+﻿@model AntheapRejestr.Models.Company
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@Model.NIP</title>
+</head>
+
+<body>
+    <div>
+        <div>
+            <h3>Wyszukaj po numerze NIP</h3>
+            @using (Html.BeginForm("SearchByNIP", "Company", FormMethod.Post))
+            {
+                <div class="form-group">
+                    @Html.TextBoxFor(model => model.NIP, new {@class="form-control"})
+                </div>
+                <input type="submit" value="Szukaj" class="btn btn-primary" />
+            }
+
+        </div>
+    </div>
+</body>
